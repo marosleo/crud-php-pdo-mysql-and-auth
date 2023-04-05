@@ -1,9 +1,6 @@
 # CRUD com PHP orientado a objetos, PDO e MySQL
 Código da implementação de um CRUD com PHP orientado a objetos e MySQL apresentado no canal [WDEV](http://wstore.io/wdev).
 
-## Vídeo WDEV
-Para assistir o vídeo dessa implementação, acesse: [CRUD com PHP orientado a objetos, PDO e MySQL (YouTube)](https://www.youtube.com/watch?v=uG64BgrlX7o)
-
 ## Banco de dados
 Crie um banco de dados e execute as instruções SQLs abaixo para criar a tabela `vagas`:
 ```sql
