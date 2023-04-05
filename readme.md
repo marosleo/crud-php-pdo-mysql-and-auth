@@ -4,6 +4,13 @@ Código da implementação de um CRUD com PHP orientado a objetos e MySQL aprese
 ## Banco de dados
 Crie um banco de dados e execute as instruções SQLs abaixo para criar a tabela `vagas`:
 ```sql
+  CREATE TABLE `usuarios` (
+    `id` int(11) NOT NULL,
+    `nome` varchar(255) NOT NULL,
+    `email` varchar(255) NOT NULL,
+    `senha` varchar(255) NOT NULL
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
   CREATE TABLE `vagas` (
   	`id` INT(11) NOT NULL AUTO_INCREMENT,
   	`titulo` VARCHAR(255) NOT NULL COLLATE 'utf8_general_ci',
@@ -15,6 +22,20 @@ Crie um banco de dados e execute as instruções SQLs abaixo para criar a tabela
   COLLATE='utf8_general_ci'
   ENGINE=InnoDB
   AUTO_INCREMENT=1;
+  
+  ALTER TABLE `usuarios`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
+  
+  ALTER TABLE `vagas`
+  ADD PRIMARY KEY (`id`);
+  
+  ALTER TABLE `usuarios`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+  ALTER TABLE `vagas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  COMMIT;
 ```
 
 ## Configuração
