@@ -1,4 +1,4 @@
-# CRUD com PHP orientado a objetos, PDO e MySQL - WDEV
+# CRUD com PHP orientado a objetos, PDO e MySQL
 Código da implementação de um CRUD com PHP orientado a objetos e MySQL apresentado no canal [WDEV](http://wstore.io/wdev).
 
 ## Vídeo WDEV
