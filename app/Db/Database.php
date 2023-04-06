@@ -17,7 +17,7 @@ class Database{
    * Nome do banco de dados
    * @var string
    */
-  const NAME = 'wdev_vagas';
+  const NAME = 'crud_vagas';
 
   /**
    * Usuário do banco

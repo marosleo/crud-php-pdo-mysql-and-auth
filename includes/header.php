@@ -28,7 +28,7 @@
 
     <div class="container">
 
-      <div class="jumbotron bg-danger">
+      <div class="jumbotron" style="background-color: purple">
         <h1>Gerenciamento de vagas</h1>
         <p>Exemplo de CRUD com PHP orientados a objetos</p>
 

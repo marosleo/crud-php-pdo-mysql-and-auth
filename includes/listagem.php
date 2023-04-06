@@ -23,10 +23,10 @@
                       <td>'.date('d/m/Y à\s H:i:s',strtotime($vaga->data)).'</td>
                       <td>
                         <a href="editar.php?id='.$vaga->id.'">
-                          <button type="button" class="btn btn-primary">Editar</button>
+                          <button type="button" class="btn" style="background-color: black; color: white">Editar</button>
                         </a>
                         <a href="excluir.php?id='.$vaga->id.'">
-                          <button type="button" class="btn btn-danger">Excluir</button>
+                          <button type="button" class="btn" style="background-color: purple; color:black; font-weight: bold">Excluir</button>
                         </a>
                       </td>
                     </tr>';
@@ -85,7 +85,7 @@
         </div>
 
         <div class="col d-flex align-items-end">
-          <button type="submit" class="btn btn-primary">Filtrar</button>
+          <button type="submit" class="btn" style="background-color: purple; color:black; font-weight:bold">Filtrar</button>
         </div>
 
       </div>
